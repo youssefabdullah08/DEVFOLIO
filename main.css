@@ -1,0 +1,293 @@
+*{
+    text-decoration: none !important;
+    
+    list-style: none;
+}
+
+
+
+nav{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+#home{
+    width: 100%;
+    min-height: 100dvh;
+}
+
+
+.mybg {
+    background-color: #000000;
+    
+}
+
+nav span{
+    color: #fff;
+}
+
+.navbar .active::before{
+
+width: 100%;
+}
+ nav a{
+    color: #fff !important;
+ }
+nav .navbar-collapse ul li a{
+    position: relative;
+ 
+}
+nav .navbar-collapse ul li a :hover nav .navbar-collapse ul li a::before{
+    width: 100%;
+}
+nav .navbar-collapse ul li a::before{
+    content: '';
+    width:0%;
+    height: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    visibility: visible;
+    transition: width 0.5s ease;
+}
+nav .dropdown:hover> .dropdown-menu ,.deep-dropdown:hover>.dropdown-menu{
+    display: block;
+    transition: all 1s;
+}
+.deep-dropdown:hover>.dropdown-menu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+
+
+
+#home{
+    
+    background-image :linear-gradient(rgba(0, 0, 0, 0.549)0% 100%), url('imgs/hero-bg.jpg') ;
+ 
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 50;
+}
+#about{
+    text-transform: capitalize;
+}
+.persnteage span{
+    position: relative;
+}
+.persnteage .ht::after{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #0078FF 85% ,#CDE1F8 15%);
+    position: absolute;
+    top: 80%;
+    left: 0;
+}
+.persnteage .cs::after{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #0078FF 75% ,#CDE1F8 25%);
+    position: absolute;
+    top: 80%;
+    left: 0;
+}
+.persnteage .php::after{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #0078FF 50% ,#CDE1F8 50%);
+    position: absolute;
+    top: 80%;
+    left: 0;
+}
+h1{
+    font-size: 60;
+}
+.persnteage .js::after{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #0078FF 90% ,#CDE1F8 10%);
+    position: absolute;
+    top: 80%;
+    left: 0;
+}
+.aboutinfo h2{
+    position: relative;
+}
+.aboutinfo h2::after{
+content: '';
+width: 90px;
+height: 4px;
+background-color: #0078FF;
+position: absolute;
+top: 100%;
+left: 0;
+}
+#serveses i{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 50%;
+    border: #0078FF 10px solid;
+    font-size: 40;
+    transition:all 1s;
+}
+#serveses>p::after{
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#serveses .card:hover  .h{
+    background-color: #0078FF;
+    border: #cde1f8 10px solid !important;
+}
+.counter{
+    padding-block: 120px;
+    background-image: linear-gradient(#0559b898 0% 100%),url('imgs/counters-bg.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.counter .card{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.counter i{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 50%;
+    border: #b3d0f1c5 10px solid;
+    font-size: 40;
+}
+
+#portfolio >p::after{
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.my-btn{
+   
+    width: 20px;
+    height: 20px;
+    
+   
+    border-radius: 50%;
+    border: #0078FF 4px solid;
+}
+.card-img-top{
+    transition: transform 1s;
+}
+#portfolio .card:hover .card-img-top{
+    transform: scale(1.2);
+    
+}
+.slider{
+    background-image: linear-gradient(#0559b88a 0% 100%),url('imgs/overlay-bg.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff !important;
+}
+.my-img{
+    margin-top: 100px;
+}
+.card h4{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #0078FF;
+    color: #fff;
+}
+#blog >p::after{
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#contact{
+background-image:linear-gradient(#0559b88a 0% 100%), url('imgs/overlay-bg.jpg');
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+min-height: 100%;
+}
+.in-st{
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.form h2::after{
+    content: '';
+    width: 90px;
+    height: 4px;
+    background-color: #0078FF;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    }
+
+    .dit h2::after{
+        content: '';
+        width: 90px;
+        height: 4px;
+        background-color: #0078FF;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        }
+        .form button{
+            background-color: #116dd5;
+        }
+        .form textarea{
+            height: 100px;
+        }
+        .dit p i{
+            color: #0078FF;
+        }
+        .dit>i{
+            margin:5px ;
+            padding: 5px;
+            border-radius: 50%;
+            border: #0077ff99 4px solid;
+            transition:all 1s;
+        }
+        .dit>i:hover{
+            background-color: #0078FF;
+            color: #fff;
+            
+            
+        }
+        .footer{
+            background-color: #0062D3;
+            height: 100px;
+            color: #fff;
+        }
+
