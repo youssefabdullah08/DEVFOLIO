@@ -70,7 +70,8 @@ nav .dropdown:hover> .dropdown-menu ,.deep-dropdown:hover>.dropdown-menu{
     
     background-image :linear-gradient(rgba(0, 0, 0, 0.549)0% 100%), url('imgs/hero-bg.jpg') ;
  
-    background-position: center;
+    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
     color: #fff;
     font-size: 50;
